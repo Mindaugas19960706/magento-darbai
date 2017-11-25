@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+
+    </default>
+
+    <catalog_category_view>
+        <remove name="right.poll"></remove>
+    </catalog_category_view>
+
+</layout>
