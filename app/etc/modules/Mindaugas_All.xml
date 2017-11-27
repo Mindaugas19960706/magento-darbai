@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Mindaugas_Google>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Mindaugas_Google>
+    </modules>
+</config>

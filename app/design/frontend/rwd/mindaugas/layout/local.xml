@@ -1,7 +1,15 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <default>
-
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/style.css</name>
+            </action>
+        </reference>
+        <reference name="footer" >
+            <block type="google/block" name="footer_text" as="footer_text" template="template.phtml" before="-"/>
+        </reference>
     </default>
 
     <catalog_category_view>

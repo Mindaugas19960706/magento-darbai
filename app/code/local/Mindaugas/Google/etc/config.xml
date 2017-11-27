@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<config>
+    <frontend>
+        <layout>
+            <updates>
+                <google>
+                    <file>layout.xml</file>
+                </google>
+            </updates>
+        </layout>
+    </frontend>
+    <modules>
+        <Mindaugas_Google>
+            <version>0.0.1</version>
+        </Mindaugas_Google>
+    </modules>
+    <global>
+        <blocks>
+            <google>
+                <class>Mindaugas_Google_Block</class>
+            </google>
+        </blocks>
+        <models>
+            <google>
+                <class>Mindaugas_Google_Model</class>
+            </google>
+        </models>
+        <helpers>
+            <google>
+                <class>Mindaugas_Google_Helper</class>
+            </google>
+        </helpers>
+    </global>
+</config>
